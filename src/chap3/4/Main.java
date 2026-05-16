@@ -1,0 +1,11 @@
+public class Main{
+	public static void main(String[] args) {
+		int i = 0, j = 10;
+		boolean b1,b2;
+		b1 = (i < 0) & ((j++) <= 10);
+		System.out.println("b1: " + b1 + " j: " + j);
+		j = 10;
+		b2 = (i < 0) && ((j++)<=10);
+		System.out.println("b2: " + b2 + " j: "  + j);
+	}
+}
